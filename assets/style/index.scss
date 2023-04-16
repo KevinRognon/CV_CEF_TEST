@@ -1,23 +1,21 @@
 
-// @import url('/assets/fonts/Lato/Lato-Bold.ttf');
-// @import url('/assets/fonts/Lato/Lato-Regular.ttf');
-// @import url('/assets/fonts/Lato/Lato-Italic.ttf');
-@import url('../fonts/Lato/Lato-Regular.ttf');
-@import url('../fonts/Lato/Lato-Bold.ttf');
-@import url('../fonts/Lato/Lato-Italic.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
 
 @font-face {
 	font-family: 'Raleway-Regular';
-	src: url('../fonts/Raleway/Raleway-Regular.ttf');
+	src: url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+	src: url('../fonts/Raleway/Raleway-Regular.woff');
 }
 @font-face {
 	font-family: 'Raleway-Bold';
-	src: url('../fonts/Raleway/Raleway-Bold.ttf');
+	src: url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+	src: url('../fonts/Raleway/Raleway-Bold.woff');
 }
 
 @font-face {
 	font-family: 'Raleway-Italic';
-	src: url('../fonts/Raleway/Raleway-Italic.ttf');
+	src: url('../fonts/Raleway/Raleway-Italic.ttf') format('truetype');
+	src: url('../fonts/Raleway/Raleway-Italic.woff');
 }
 
 html, ::before, ::after{
