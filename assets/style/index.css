@@ -8,7 +8,8 @@ html, ::before, ::after {
 
 body {
   max-width: 1160px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: .9rem; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: 'Lato'; }
   body header {
@@ -43,5 +44,31 @@ body {
       body header nav a {
         color: white;
         text-decoration: none; }
+  body main {
+    display: flex;
+    justify-content: start; }
+    body main aside {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      padding-right: 50px;
+      background-color: #782221;
+      color: white;
+      width: 25%; }
+      body main aside article p {
+        text-align: justify;
+        text-indent: 30px;
+        padding: 0 20px 0 20px; }
+      body main aside article h3 {
+        background-color: #dbc2a4;
+        color: black;
+        padding: 5px 0 5px 20px; }
+    body main #main__corps-de-page {
+      padding-right: 50px;
+      padding-left: 50px; }
+  body footer {
+    background-color: #782221; }
+    body footer figure {
+      margin: 0; }
 
 /*# sourceMappingURL=index.css.map */

@@ -13,7 +13,8 @@ html, ::before, ::after{
 body{
 	max-width: 1160px;
 	margin: 0 auto;
-	// border: 1px solid black;
+
+	font-size: .9rem;
 	h1, h2, h3, h4, h5, h6{
 		font-family: 'Lato';
 	}
@@ -61,6 +62,45 @@ body{
 				color: white;
 				text-decoration: none;
 			}
+		}
+	}
+	main{
+		display: flex;
+		justify-content: start;
+		aside{
+			display: flex;
+			flex-direction: column;
+			justify-content: start;
+			padding-right: 50px;
+			article{
+
+				p{
+					text-align: justify;
+					text-indent: 30px;
+					padding: 0 20px 0 20px;
+				}
+
+				h3{
+					background-color: #dbc2a4;
+					color: black;
+					padding: 5px 0 5px 20px;
+				}
+			}
+			background-color: #782221;
+			color: white;
+			width: 25%;
+		}
+
+		#main__corps-de-page{
+			padding-right: 50px;
+			padding-left: 50px;
+		}
+	}
+
+	footer{
+		background-color: #782221;
+		figure{
+			margin: 0;
 		}
 	}
 
