@@ -1,6 +1,6 @@
-@import url("assets/fonts/Lato/Lato-Bold.ttf");
-@import url("assets/fonts/Lato/Lato-Regular.ttf");
-@import url("assets/fonts/Lato/Lato-Italic.ttf");
+@import url("/assets/fonts/Lato/Lato-Bold.ttf");
+@import url("/assets/fonts/Lato/Lato-Regular.ttf");
+@import url("/assets/fonts/Lato/Lato-Italic.ttf");
 @font-face {
   font-family: 'Raleway-Regular';
   src: url("/assets/fonts/Raleway/Raleway-Regular.ttf"); }
