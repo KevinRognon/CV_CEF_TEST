@@ -1,7 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url(assets/fonts/Lato/Lato-Bold.ttf);
+@import url(assets/fonts/Lato/Lato-Regular.ttf);
+@import url(assets/fonts/Lato/Lato-Italic.ttf);
 @font-face {
-  font-family: 'Raleway';
-  src: url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); }
+  font-family: 'Raleway-Regular';
+  src: url(/assets/fonts/Raleway/Raleway-Regular.ttf); }
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url(/assets/fonts/Raleway/Raleway-Bold.ttf); }
+@font-face {
+  font-family: 'Raleway-Italic';
+  src: url(/assets/fonts/Raleway/Raleway-Italic.ttf); }
 html, ::before, ::after {
   padding: 0;
   margin: 0; }
@@ -9,52 +17,56 @@ html, ::before, ::after {
 body {
   max-width: 1160px;
   margin: 0 auto;
-  font-size: .9rem; }
+  height: 100vh;
+  font-size: .8em;
+  font-family: 'Raleway-Regular'; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: 'Lato'; }
-  body header {
+    font-family: 'Lato', sans-serif; }
+  body #header__principal {
     padding-top: 50px;
     text-align: center;
     color: white;
     background-color: #782221; }
-    body header figure {
+    body #header__principal figure {
       margin: 0 auto;
       width: 190px;
       height: 190px;
       border-radius: 50%;
       box-shadow: 0 0 10px black; }
-      body header figure img {
+      body #header__principal figure img {
         width: 100%;
         height: 100%;
         border-radius: 50%; }
-    body header h2 {
+    body #header__principal h2 {
       margin-bottom: 50px; }
-    body header nav {
+    body #header__principal ul {
       font-family: 'Raleway', sans-serif;
       text-align: left;
       display: flex;
       justify-content: space-between;
       align-items: center;
       background-color: #2c1d27;
-      padding: 20px 40px; }
-      body header nav li {
+      padding: 20px 40px;
+      margin: 0; }
+      body #header__principal ul li {
         list-style-type: none; }
-        body header nav li .mail {
+        body #header__principal ul li .mail {
           margin-right: 125px; }
-      body header nav a {
+      body #header__principal ul a {
         color: white;
         text-decoration: none; }
   body main {
     display: flex;
-    justify-content: start; }
+    justify-content: start;
+    gap: 0; }
     body main aside {
       display: flex;
       flex-direction: column;
       justify-content: start;
       padding-right: 50px;
+      width: 100%;
       background-color: #782221;
-      color: white;
-      width: 25%; }
+      color: white; }
       body main aside article p {
         text-align: justify;
         text-indent: 30px;
@@ -64,11 +76,30 @@ body {
         color: black;
         padding: 5px 0 5px 20px; }
     body main #main__corps-de-page {
+      width: 100%;
       padding-right: 50px;
-      padding-left: 50px; }
+      padding-left: 50px;
+      border-right: 1px solid black; }
+      body main #main__corps-de-page h2 {
+        position: relative;
+        background-color: #dbc2a4;
+        min-width: 700px;
+        height: 100%;
+        padding: 5px 0 5px 10px; }
+        body main #main__corps-de-page h2::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          display: inline-block;
+          background-color: #782221;
+          width: 7px;
+          height: 100%; }
   body footer {
     background-color: #782221; }
     body footer figure {
+      margin: 0; }
+    body footer small p {
       margin: 0; }
 
 /*# sourceMappingURL=index.css.map */
