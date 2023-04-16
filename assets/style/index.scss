@@ -131,14 +131,22 @@ body{
 	}
 
 	footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		background-color: #782221;
+		padding: 5px 0 25px 0;
 		figure{
-			margin: 0;
+			display: flex;
+			gap: 20px;
+			img{
+				width: 25px;
+				height: 25px;
+			}
 		}
 		small{
-			p{
-				margin: 0;
-			}
+			margin: 0;
+			color: white;
 		}
 	}
 
