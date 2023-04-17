@@ -1,0 +1,32 @@
+
+
+
+#header__principal{
+	figure{
+			img:hover{
+				cursor: zoom-in;
+			}
+	}
+	nav ul li a:hover{
+		text-decoration: underline;
+	}
+}
+
+
+#main__corps-de-page{
+	article:hover{
+		border-right: 5px solid #782221;
+		cursor: default;
+	}
+}
+
+
+footer{
+	figure{
+		a:hover{
+			opacity: 70%;
+		}
+	}
+}
+
+
